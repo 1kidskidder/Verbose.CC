@@ -136,11 +136,11 @@ TextButton.MouseButton1Click:Connect(
     function()
         state = not state
         if not state then
-            TextButton.Text = "V.cc ON"
+            TextButton.Text = "Vcc ON"
             CamlockState = true
             enemy = FindNearestEnemy()
         else
-            TextButton.Text = "V.cc OFF"
+            TextButton.Text = "Vcc OFF"
             CamlockState = false
             enemy = nil
         end
