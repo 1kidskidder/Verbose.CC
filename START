@@ -173,7 +173,6 @@ for i, v in pairs(game:GetService("Players"):GetPlayers()) do
       coroutine.wrap(Main)(v)
     end
 end
-
 game:GetService("Players").PlayerAdded:Connect(function(newplr)
     coroutine.wrap(Main)(newplr)
 end)
@@ -183,6 +182,7 @@ end)
         print("Off")
     end
 end)
+
 -- Create the second tab with a different image ID
 local tab2 = DrRayLibrary.newTab("Tab 2", "ImageIdLogoHere")
 
