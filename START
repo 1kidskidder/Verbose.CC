@@ -10,10 +10,10 @@ local tab1 = DrRayLibrary.newTab("Visuals", "ImageIdHere")
 tab1.newToggle("Box", "Toggle! (prints the state)", false, function(toggleState)-- Settings
 local Settings = {
     Box_Color = Color3.fromRGB(255, 0, 0),
-    Box_Thickness = 2,
+    Box_Thickness = 0.5,
     Team_Check = false,
     Team_Color = false,
-    Autothickness = true
+    Autothickness = false
 }
 
 --Locals
