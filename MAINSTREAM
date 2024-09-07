@@ -4,7 +4,6 @@ local window1 = engine.new({
     text = "Verbose.CC",
     size = UDim2.new(300, 200),
 })
-
 window1.open()
 
 local tab1 = window1.new({
