@@ -29,5 +29,4 @@ local switch1 = tab1.new("switch", {
 switch1.set(false)
 switch1.event:Connect(function(bool)game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 64;
     print("switch set to: ", bool)
-if .set(false)switch1.event:connect(function(bool)game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16;
 end)
